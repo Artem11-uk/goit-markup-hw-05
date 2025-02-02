@@ -382,9 +382,6 @@
                 </ul>
             </div>
         </div>
-
-            <!-- FORM -->
-
     <div class="box-subcribe">
         <p class="title-subcribe">Subcribe</p>
             <form class="form-subcribe">
@@ -403,19 +400,21 @@
         </div>
       </div>
    </footer>>
-  <div id="modal-window" class="modal-overley" data-modal>  
+
+            <!-- FORM -->
+
+  <div id="modal-backdrop" class="modal-overlay" data-modal>  
     <div class="modal">
-      <button 
+       <button class="button-close-modal"
         id="close-modal"
-        class="butoon-close-modal"
         type="button"
         data-modal-close>
       <svg class="close-icon" width="8" height="8">
-     <use href="./images/icons.svg#icon-Vector"></use>
+     <use href="./images/icons.svg#icon-close-black"></use>
    </svg>
- </button>
-             <!-- NAME -->
-    <p>Leave your contacts and we will call you back</p>
+ </button> 
+        
+    <p class="title-modal">Leave your contacts and we will call you back</p>
       <form class="form">
         <div class="group-form">
           <label class="form-label" for="user-name">Name</label>
@@ -432,7 +431,7 @@
               </svg>
             </div>
           </div>
-               <!-- PHONE -->
+          
     <div class="group-form">
         <label class="form-label" for="user-phone">Phone</label>
         <div class="box-inform-user">
@@ -448,7 +447,7 @@
             </svg>
         </div>
     </div>
-             <!-- EMAIL -->
+             
  <div class="group-form">
     <label class="form-label" for="user-email">Email</label>
     <div class="box-inform-user">
@@ -464,7 +463,7 @@
         </svg>
     </div>
  </div>
-          <!-- Comment -->
+        
     <div class="box-comment-user">
         <label class="form-label" for="user-comment">Comment</label>
         <textarea class="text-comment-input" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
@@ -475,7 +474,7 @@
         <label class="form-checkbox-label" for="user-privacy">
             <span class="check">
                 <svg class="icon-check" width="10" height="8">
-                    <use href=""></use>
+                    <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
             </span>
             I accept the terms and conditions of the
