@@ -592,7 +592,7 @@ background-color: #4d5ae5;
     margin-bottom: 10px;
 }
 
-.footer-container {
+.subscribe-container {
     margin-left: auto;
 }
 
@@ -601,39 +601,39 @@ background-color: #4d5ae5;
 }
 
 .subscribe-text {
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin: 0;
-    margin-bottom: 16px;
 }
 
 .subscribe-form {
     display: flex;
     gap: 24px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+}
+
+.subscribe-label {
+    display: flex;
 }
 
 .subscribe-input {
     border: 1px solid #fff;
-    border-radius: 4px;
-    width: 264px;
-    height: 40px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: transparent;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    outline: none;
+        border-radius: 4px;
+        width: 264px;
+        height: 40px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background-color: transparent;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        outline: none;
 }
 
 .subscribe-input:focus {
@@ -641,7 +641,7 @@ background-color: #4d5ae5;
 }
 
 .subscribe-button {
-    display: flex;    
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
@@ -657,19 +657,20 @@ background-color: #4d5ae5;
     letter-spacing: 0.04em;
     text-align: center;
     color: #ffffff;
-    margin: 0;
+    margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
 }
 
 .subscribe-icon {
-    fill: #ffffff;
     margin-left: 16px;
+    
 }
 
-.submit-button:hover,
-.submit-button:focus {
+.subscribe-button:hover,
+.subscribe-button:focus {
     background-color: #404bbf;
+    fill: ffffff;
 }
 .modal-overlay {
     position: fixed;
